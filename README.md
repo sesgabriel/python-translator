@@ -1,22 +1,22 @@
 ## Simple Translator made in Python
-A simple text translator made in Python, made for my personal use and studies
+A simple text translator written in Python, made for my personal use and learning purposes
 
 ## What the project does
-- Translate text between languages, being able to translate more than 100 languages
-- He uses the function GoogleTranslator by Deep-Translator library
-- Is a project made for my personal use, to translate text while Im using two apps in the same time
+- Translate text between languages, supporting more than 100 languages
+- It uses the function GoogleTranslator from Deep-Translator library
+- This project was made for personal use, to translate text while using two applications at the same time
 
 ## Technologies used
-- Python 3.14
+- Python 3.10+
 - Deep-Translator library
 
 ## How to use
-This project don't have requirements.txt. Here's how to use him:
+This project doesn't have a requirements.txt file. Here's how to use it:
 - Clone this repo: https://github.com/sesgabriel/python-translator
-- Enter on the project's folder (C: python-translator)
-- Execute the program
+- Enter the project's folder (python-translator)
+- Run the program
 
-The translator uses the Deep-Translator library. If you don't have, you can install using pip install deep-translator
+The translator uses the Deep-Translator library. If you don't have it installed, you can install it using 'pip install deep-translator'
 
 ## Usage example
 - Type the text you want to translate: Eu amo Python!
