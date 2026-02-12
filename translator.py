@@ -1,3 +1,4 @@
+
 from deep_translator import GoogleTranslator
 from time import sleep
 
@@ -40,7 +41,9 @@ while True:
         if not choice:
             print('Please, tip y, or n, or quit, or exit.')
             continue
-        if choice != 'y' or 'quit' or 'exit':
+        if choice != 'y':
             print('Thanks for using the translator! Drink water.')
             sleep(3)
-            break
+            exit()
+
+    
